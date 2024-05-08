@@ -1005,11 +1005,19 @@ text-align: center;
 		font-size: 40px;
 	}
 	.mlambo-work p span{
-		font-size: 27px;
+		font-size: 20px;
 	}
+	
 	.mlambo-img-container{
 		width: 180px;
 		height: 185px;
+	}
+	.mlambo-social-icons{
+		position: absolute;
+		display: inline-flex;
+		bottom: 80px;
+		gap: 20px;
+		
 	}
 	.mlambo-img{
 		height: 185px;
@@ -1077,9 +1085,10 @@ text-align: center;
 	.row{
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 	display: flex;
+	align-items: center;
 }
 .col-md-7{
-	padding: 20px;
+	padding: 5px;
 }
 .col-md-7 h4{
 	font-size: 20px;
@@ -1087,7 +1096,7 @@ text-align: center;
 	color: #6429EF;
 }
 .address-cont{
-	width: 400px; /* Adjust width as needed */
+	width: 200px; /* Adjust width as needed */
 	background-color: #6429EF;
 	padding: 20px;
 	color: white;
@@ -1130,7 +1139,7 @@ text-align: center;
 .data-form {
     display: flex;
     flex-direction: column;
-    width: 400px; /* Adjust width as needed */
+    width: 200px; /* Adjust width as needed */
 }
 
 
@@ -1177,6 +1186,18 @@ text-align: center;
 .data-form .button:hover {
     background-color: #4d1aae;
 }
+/* services section */
+.services-container .services-box{
+	/* flex: 1 1 16rem; */
+	background: var(--bg-color);
+	padding: 1.7rem 0.8rem 2.7rem;
+	border-radius: 1rem;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	text-align: center;
+	border-top: .5rem solid var(--first-color);
+	border-bottom: .5rem solid var(--first-color);
+	transition: .5s ease;
+}
 
 /* contact section  */
 .container {
@@ -1192,7 +1213,7 @@ text-align: center;
 .data-form {
     display: flex;
     flex-direction: column;
-    width: 320px; /* Adjust width as needed */
+    width: 270px; /* Adjust width as needed */
 }
   .col-md-7 {
     width: 100%;
@@ -1215,5 +1236,3 @@ text-align: center;
 
 	
 }
-
-  
