@@ -1016,9 +1016,10 @@ text-align: center;
 		height: 185px;
 	}
 	.mlambo-social-icons{
-		position: absolute;
+		position: relative;
 		display: inline-flex;
 		bottom: 80px;
+		padding-top:100px;
 		gap: 20px;
 		
 	}
@@ -1239,3 +1240,5 @@ text-align: center;
 
 	
 }
+
+  
