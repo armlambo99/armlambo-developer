@@ -994,7 +994,7 @@ text-align: center;
 
 }
 
-@media(max-width:714px){
+@media(max-width:514px){
 	header, .mlambo{
 		padding: 6vw;
 	}
@@ -1039,7 +1039,7 @@ text-align: center;
 		/* flex-direction: column-reverse; */
 	}
 	.about-container{
-		padding-top: 60px;
+		padding-top: 120px;
 	}
 	.about-heading{
 		padding: 0 20px;		
