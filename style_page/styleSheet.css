@@ -1038,6 +1038,9 @@ text-align: center;
 		display: inline;
 		/* flex-direction: column-reverse; */
 	}
+	.about-container{
+		padding-top: 60px;
+	}
 	.about-heading{
 		padding: 0 20px;		
 	}
