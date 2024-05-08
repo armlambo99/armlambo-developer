@@ -994,7 +994,7 @@ text-align: center;
 
 }
 
-@media(max-width:514px){
+@media(max-width:714px){
 	header, .mlambo{
 		padding: 6vw;
 	}
