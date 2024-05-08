@@ -998,6 +998,9 @@ text-align: center;
 	header, .mlambo{
 		padding: 6vw;
 	}
+	.mlambo{
+		padding-top: 120px;
+	}
 	.hire-me-btn{
 		display: none;
 	}
