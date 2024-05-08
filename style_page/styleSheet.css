@@ -1036,7 +1036,7 @@ text-align: center;
 	/* about section */
 	#about-section{
 		display: inline;
-		/* flex-direction: column-reverse; */
+		
 	}
 	.about-container{
 		padding-top: 120px;
